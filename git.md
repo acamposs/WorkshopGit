@@ -22,7 +22,7 @@
 - Adiciona as alterações de diversas branchs sem conflitos e tem a capacidade de juntar a main apenas a alteração que foi feita em uma parte especifica do projeto
 
 **remote**
-- 
+- cria uma conexão do meu repositorio local com o repositorio do github
 
 **push**
 - subir os commits e as alterações para o repositorio no github
