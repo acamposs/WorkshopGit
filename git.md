@@ -81,8 +81,6 @@ Se olharmos agora o nosso código no Github, ele terá sido alterado, e não só
 O verde com `+` e o vermelho com `-` mostra, os conteúdos que foram adicionados e editados dentro do código.
 Aqui nesse botão poderemos ver todos os commits já feitos anteriormente, então se clicarmos em algum deles, veremos exatamente o que havia sido alterado, além de claro, vermos o código como era. Incrível né?
 
-<img src="https://media.discordapp.net/attachments/831974152667398214/836830443617648670/unknown.png">
-
 ## Branch
 
 Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa `main`, que é aquela linha do tempo principal.
@@ -102,13 +100,10 @@ Esse comando além de criar a branch já entra nela com o checkout, inclusive se
 
 * Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o `git push orgin main` né? Porém main era aquela branch principal. Agora então usaremos `git push origin botao`
 
-Agora se olharmos o nosso Github, veremos que tem 2 branches, a `main` e a `botao`
-
-<img src="https://media.discordapp.net/attachments/812313742192279612/836820670037622854/unknown.png">
 
 Vamos supor que eu ainda não tivesse terminado de desenvolver o botão, eu poderia continuar tranquilamente na branch `botao` até terminar!
 
-Mas Rafa, e se eu precisasse por algum motivo voltar naquela branch `main` e desenvolver a partir do que deixei lá? Sem problemas, a única coisa que você precisa fazer nesse caso é `git checkout main`, e pra voltar depois é só `git checkout botao` novamente
+Mas, e se eu precisasse por algum motivo voltar naquela branch `main` e desenvolver a partir do que deixei lá? Sem problemas, a única coisa que você precisa fazer nesse caso é `git checkout main`, e pra voltar depois é só `git checkout botao` novamente
 
 Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao`, como que junto ela com a main sem problemas?
 
@@ -130,7 +125,6 @@ Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pe
 
 * Você irá copiar esse link e levar ele lá pro nosso terminal
 
-* O comando para puxar o projeto para a sua máquina é o `git clone https://github.com/rafaballerini/GitTutorial.git`
 
 Não é necessário criar um repositório antes disso, como fizemos anteriormente com o `git init`. Dessa vez, basta abrir o terminal e clonar o projeto e tudo aparecerá!
 
@@ -142,7 +136,6 @@ E se eu fizer uma alteração no repositório, como vocês podem atualizar na m�
 
 ## Fork
 
-Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Github.
 Existe a ferramenta `fork`, que é bem mais simples para fazer isso
 Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta:
 
