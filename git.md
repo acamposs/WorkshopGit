@@ -121,8 +121,6 @@ Como vocês podem baixar meu código?
 
 Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão `Code`, que quando você clica aparece um link:
 
-<img src="https://media.discordapp.net/attachments/812313742192279612/836823564513705994/unknown.png">
-
 * Você irá copiar esse link e levar ele lá pro nosso terminal
 
 
@@ -137,9 +135,7 @@ E se eu fizer uma alteração no repositório, como vocês podem atualizar na m�
 ## Fork
 
 Existe a ferramenta `fork`, que é bem mais simples para fazer isso
-Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta:
-
-<img src="https://media.discordapp.net/attachments/831974152667398214/836826687634407434/unknown.png">
+Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta!
 
 ## Pull request
 
@@ -151,9 +147,8 @@ O último conceito que quero ensinar para vocês é o de Pull Request, vamos ent
 
 * Depois disso, você poderá salvar o projeto, dar o `git add .`, `git commit -m "validação de botões"` e `git push origin main`
 
-Quando você for olhar o seu Github, verá que existe uma mensagem parecida com a seguinte:
+Quando você for olhar o seu Github, verá que existe uma mensagem!
 
-<img src="https://media.discordapp.net/attachments/831974152667398214/838990983852458035/unknown.png">
 
 Isso significa que a branch do seu repositório está 1 commit "na frente" da branch original
 
